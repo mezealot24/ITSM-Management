@@ -30,11 +30,6 @@ export default function Home() {
 					Enter Site
 				</a>
 			</main>
-			<footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-				<p className="text-sm text-gray-500">
-					© 2024 NYC ITSM. All rights reserved.
-				</p>
-			</footer>
 		</div>
 	);
 }

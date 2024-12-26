@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Kanit, Poppins } from "next/font/google";
 import "./globals.css";
 import { FadeTransition } from "@/components/animation/FadeTransition";
+import { Footer } from "@/components/footer";
 
 // นำเข้า font ที่ต้องการ
 const kanit = Kanit({
@@ -30,6 +31,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${kanit.variable} ${poppins.variable} antialiased`}>
 				<FadeTransition>{children}</FadeTransition>
+				<Footer />
 			</body>
 		</html>
 	);

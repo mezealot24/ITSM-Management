@@ -36,17 +36,14 @@ const data = {
 		{
 			name: "Manager",
 			logo: ChartNoAxesGantt,
-			plan: "Basic",
 		},
 		{
 			name: "Developer",
 			logo: FolderCode,
-			plan: "Pro",
 		},
 		{
 			name: "Support",
 			logo: CircuitBoard,
-			plan: "Enterprise",
 		},
 	],
 	navMain: [
@@ -76,7 +73,7 @@ const data = {
 			icon: LaptopMinimal,
 			items: [
 				{
-					title: "Genesis",
+					title: "Stock",
 					url: "#",
 				},
 				{
